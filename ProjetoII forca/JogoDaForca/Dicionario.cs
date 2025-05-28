@@ -49,17 +49,32 @@ namespace JogoDaForca
             }
         }
 
-        public bool EstaNaPalavra(string letra){
-            //se a letra está na paalvra
-                //Atualiza no vetor os lugares que estão false e que a letra está lá(ex: posição 1---5--8)fica true, false, false, false, true, false, false, true
-                //retorna true
-            //retorna false se a letra não estiver.
+        public bool EstaNaPalavra(string letraDigitada){
+            char letra = letraDigitada[0]; // Pega a primeira letra da string
+            bool encontrou = false;
+
+            for (int i = 0; i < Palavra.Length; i++){
+                if (Palavra[i] == letra){
+                    Acertou[i] = true; // atualiza a posição da letra encontrada para true
+                    encontrou = true;
+                }
+            }
+
+            return encontrou; 
         }
 
-        public string Acertou() { 
-            //retorna o vetor Acertou atualizado pelo EstaNaPalavra()
+        public string MostrarAcertos(){//retorna os acertos
+            string resultado = "";
+
+            for (int i = 0; i < Palavra.Length; i++){
+                if (Acertou[i])
+                    resultado += Palavra[i];
+                else
+                    resultado += "_";
+            }
+
+            return resultado;
         }
-        
 
     }
 }

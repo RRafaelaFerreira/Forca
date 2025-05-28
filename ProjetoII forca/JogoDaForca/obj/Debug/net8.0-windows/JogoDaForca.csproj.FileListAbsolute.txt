@@ -1,0 +1,7 @@
+C:\Users\Rafaela\OneDrive\Área de Trabalho\ProjetoForcaChico\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.Form1.resources
+C:\Users\Rafaela\OneDrive\Área de Trabalho\ProjetoForcaChico\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.csproj.GenerateResource.cache
+C:\Users\Rafaela\OneDrive\Área de Trabalho\ProjetoForcaChico\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafaela\OneDrive\Área de Trabalho\ProjetoForcaChico\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.AssemblyInfoInputs.cache
+C:\Users\Rafaela\OneDrive\Área de Trabalho\ProjetoForcaChico\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.AssemblyInfo.cs
+C:\Users\Rafaela\OneDrive\Área de Trabalho\ProjetoForcaChico\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.csproj.CoreCompileInputs.cache
+C:\Users\Rafaela\OneDrive\Área de Trabalho\ProjetoForcaChico\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.sourcelink.json
