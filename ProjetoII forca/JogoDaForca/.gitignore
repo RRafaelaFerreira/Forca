@@ -1,0 +1,33 @@
+# Ignore arquivos e pastas do Visual Studio
+.vs/
+*.user
+*.suo
+
+# Ignore arquivos de build
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Ignore arquivos de cache e temporários
+*.log
+*.tmp
+*.cache
+*.db
+*.db-shm
+*.db-wal
+
+# Arquivos do sistema
+Thumbs.db
+Desktop.ini
+
+# Arquivos de publicação
+publish/
+
+# Ignore arquivos do Rider/JetBrains (caso use)
+.idea/
+*.sln.iml
+
+# Arquivos do Windows
+ehthumbs.db
