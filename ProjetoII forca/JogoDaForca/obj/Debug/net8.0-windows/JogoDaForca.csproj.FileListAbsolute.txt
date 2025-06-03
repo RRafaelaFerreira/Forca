@@ -5,3 +5,21 @@ C:\Users\Rafaela\OneDrive\Área de Trabalho\ProjetoForcaChico\Forca\ProjetoII fo
 C:\Users\Rafaela\OneDrive\Área de Trabalho\ProjetoForcaChico\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.AssemblyInfo.cs
 C:\Users\Rafaela\OneDrive\Área de Trabalho\ProjetoForcaChico\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.csproj.CoreCompileInputs.cache
 C:\Users\Rafaela\OneDrive\Área de Trabalho\ProjetoForcaChico\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.sourcelink.json
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\bin\Debug\net8.0-windows\JogoDaForca.exe
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\bin\Debug\net8.0-windows\JogoDaForca.deps.json
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\bin\Debug\net8.0-windows\JogoDaForca.runtimeconfig.json
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\bin\Debug\net8.0-windows\JogoDaForca.dll
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\bin\Debug\net8.0-windows\JogoDaForca.pdb
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.Form1.resources
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.csproj.GenerateResource.cache
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.AssemblyInfoInputs.cache
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.AssemblyInfo.cs
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.csproj.CoreCompileInputs.cache
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.sourcelink.json
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.dll
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\refint\JogoDaForca.dll
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.pdb
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.genruntimeconfig.cache
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\ref\JogoDaForca.dll
+C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\obj\Debug\net8.0-windows\JogoDaForca.Properties.Resources.resources
