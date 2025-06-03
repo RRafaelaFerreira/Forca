@@ -14,6 +14,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JogoDaForca
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\u24459\Documents\Forca\Forca\ProjetoII forca\JogoDaForca\
+=======
+build_property.ProjectDir = C:\Users\u23015\Desktop\forca\Forca\ProjetoII forca\JogoDaForca\
+>>>>>>> b2a37fe2d3ceaea06f5c9b524dbc9228891483f0
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
