@@ -1,4 +1,4 @@
-﻿//23015 e 24459
+//23015 e 24459
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,23 +24,21 @@ namespace JogoDaForca
             this.Acertou = Acertou;
         }
 
-        public void LeUmaLinha() {//Método que lê uma linha e armazena a dica e a palavra em suas respectivas variáveis
-            using (StreamReader lerLinha = new StreamReader(Palavra)) {
-                string linha = lerLinha.ReadLine();//lê a linha
-
-                string palavra = linha.Substring(0, 15);//pega a palavra e a armazena
-                Palavra = palavra.Trim();
-
-                string dica = linha.Substring(16);
-                Dica = dica.Trim(); 
+        public void LeUmaLinha(string linha){// lê uma linha e armazena a dica e a palavra em suas respectivas variáveis
+            if (linha.Length >= 16)
+            {
+                Palavra = linha.Substring(0, 15).Trim();
+                Dica = linha.Substring(16).Trim();
+            }
+            else
+            {
+                throw new ArgumentException("Linha inválida!");
             }
         }
 
         public string LinhaLida() { //método que retorna a palavra e a dica armazenada.
-            LeUmaLinha();
-            return "Palavra: " + Palavra + "Dica: " + Dica;
+            return "Palavra: " + Palavra + "Dica: " + Dica;//deve ser chamado após o LeUmaLinha para retornar o resultado...
         }
-
 
         public void IniciaFalse() {
             for (int i = 0; i < Acertou.Length; i++)
