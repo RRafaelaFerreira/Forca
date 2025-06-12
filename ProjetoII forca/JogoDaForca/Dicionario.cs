@@ -9,7 +9,7 @@ using static System.Windows.Forms.LinkLabel;
 
 namespace JogoDaForca
 {
-    internal class Dicionario
+    public class Dicionario
     {
         //private const int TAMANHO_PALAVRA = 15;
         //private const int TAMANHO_DICA = 16;

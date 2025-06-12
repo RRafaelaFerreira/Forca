@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JogoDaForca
 {
-    internal class VetorDicionario
+    public class VetorDicionario
     {
         private Dicionario[] Dados;
         private int posicaoAtual;
