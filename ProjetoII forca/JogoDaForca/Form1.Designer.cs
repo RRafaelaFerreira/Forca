@@ -51,21 +51,21 @@
             pictureBox20 = new PictureBox();
             Cadastro = new TabControl();
             tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
-            label1 = new Label();
-            label2 = new Label();
-            txtbPalavra = new TextBox();
-            txtbDica = new TextBox();
-            dataGridView1 = new DataGridView();
             toolStripContainer1 = new ToolStripContainer();
-            btnInicio = new Button();
-            btnVoltar = new Button();
-            btnAcancar = new Button();
-            btnUltimo = new Button();
-            btnIncluir = new Button();
-            btnSalvar = new Button();
-            btnAlterar = new Button();
             btnExcluir = new Button();
+            btnAlterar = new Button();
+            btnSalvar = new Button();
+            btnIncluir = new Button();
+            btnUltimo = new Button();
+            btnAcancar = new Button();
+            btnVoltar = new Button();
+            btnInicio = new Button();
+            dataGridView1 = new DataGridView();
+            txtbDica = new TextBox();
+            txtbPalavra = new TextBox();
+            label2 = new Label();
+            label1 = new Label();
+            tabPage2 = new TabPage();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -88,10 +88,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
             Cadastro.SuspendLayout();
             tabPage1.SuspendLayout();
-            tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             toolStripContainer1.ContentPanel.SuspendLayout();
             toolStripContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            tabPage2.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
@@ -332,6 +332,149 @@
             tabPage1.Text = "tabPage1";
             tabPage1.UseVisualStyleBackColor = true;
             // 
+            // toolStripContainer1
+            // 
+            // 
+            // toolStripContainer1.ContentPanel
+            // 
+            toolStripContainer1.ContentPanel.Controls.Add(btnExcluir);
+            toolStripContainer1.ContentPanel.Controls.Add(btnAlterar);
+            toolStripContainer1.ContentPanel.Controls.Add(btnSalvar);
+            toolStripContainer1.ContentPanel.Controls.Add(btnIncluir);
+            toolStripContainer1.ContentPanel.Controls.Add(btnUltimo);
+            toolStripContainer1.ContentPanel.Controls.Add(btnAcancar);
+            toolStripContainer1.ContentPanel.Controls.Add(btnVoltar);
+            toolStripContainer1.ContentPanel.Controls.Add(btnInicio);
+            toolStripContainer1.ContentPanel.Size = new Size(710, 83);
+            toolStripContainer1.Location = new Point(10, 6);
+            toolStripContainer1.Name = "toolStripContainer1";
+            toolStripContainer1.Size = new Size(710, 83);
+            toolStripContainer1.TabIndex = 5;
+            toolStripContainer1.Text = "toolStripContainer1";
+            // 
+            // btnExcluir
+            // 
+            btnExcluir.Location = new Point(611, 3);
+            btnExcluir.Name = "btnExcluir";
+            btnExcluir.Size = new Size(79, 69);
+            btnExcluir.TabIndex = 7;
+            btnExcluir.Text = "Excluir";
+            btnExcluir.UseVisualStyleBackColor = true;
+            btnExcluir.Click += btnExcluir_Click;
+            // 
+            // btnAlterar
+            // 
+            btnAlterar.Location = new Point(526, 3);
+            btnAlterar.Name = "btnAlterar";
+            btnAlterar.Size = new Size(79, 69);
+            btnAlterar.TabIndex = 6;
+            btnAlterar.Text = "Alterar";
+            btnAlterar.UseVisualStyleBackColor = true;
+            btnAlterar.Click += btnAlterar_Click;
+            // 
+            // btnSalvar
+            // 
+            btnSalvar.Location = new Point(441, 3);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.Size = new Size(79, 69);
+            btnSalvar.TabIndex = 5;
+            btnSalvar.Text = "Salvar";
+            btnSalvar.UseVisualStyleBackColor = true;
+            btnSalvar.Click += btnSalvar_Click;
+            // 
+            // btnIncluir
+            // 
+            btnIncluir.Location = new Point(356, 3);
+            btnIncluir.Name = "btnIncluir";
+            btnIncluir.Size = new Size(79, 69);
+            btnIncluir.TabIndex = 4;
+            btnIncluir.Text = "Incluir";
+            btnIncluir.UseVisualStyleBackColor = true;
+            btnIncluir.Click += btnIncluir_Click;
+            // 
+            // btnUltimo
+            // 
+            btnUltimo.Location = new Point(271, 3);
+            btnUltimo.Name = "btnUltimo";
+            btnUltimo.Size = new Size(79, 69);
+            btnUltimo.TabIndex = 3;
+            btnUltimo.Text = "Último";
+            btnUltimo.UseVisualStyleBackColor = true;
+            btnUltimo.Click += btnUltimo_Click;
+            // 
+            // btnAcancar
+            // 
+            btnAcancar.Location = new Point(186, 3);
+            btnAcancar.Name = "btnAcancar";
+            btnAcancar.Size = new Size(79, 69);
+            btnAcancar.TabIndex = 2;
+            btnAcancar.Text = "Avançar";
+            btnAcancar.UseVisualStyleBackColor = true;
+            btnAcancar.Click += btnAcancar_Click;
+            // 
+            // btnVoltar
+            // 
+            btnVoltar.Location = new Point(101, 3);
+            btnVoltar.Name = "btnVoltar";
+            btnVoltar.Size = new Size(79, 69);
+            btnVoltar.TabIndex = 1;
+            btnVoltar.Text = "Voltar";
+            btnVoltar.UseVisualStyleBackColor = true;
+            btnVoltar.Click += btnVoltar_Click;
+            // 
+            // btnInicio
+            // 
+            btnInicio.Location = new Point(16, 3);
+            btnInicio.Name = "btnInicio";
+            btnInicio.Size = new Size(79, 69);
+            btnInicio.TabIndex = 0;
+            btnInicio.Text = "Início";
+            btnInicio.UseVisualStyleBackColor = true;
+            btnInicio.Click += btnInicio_Click;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(6, 241);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(712, 188);
+            dataGridView1.TabIndex = 4;
+            // 
+            // txtbDica
+            // 
+            txtbDica.Location = new Point(116, 153);
+            txtbDica.Name = "txtbDica";
+            txtbDica.Size = new Size(499, 27);
+            txtbDica.TabIndex = 3;
+            // 
+            // txtbPalavra
+            // 
+            txtbPalavra.Location = new Point(116, 106);
+            txtbPalavra.Name = "txtbPalavra";
+            txtbPalavra.Size = new Size(163, 27);
+            txtbPalavra.TabIndex = 2;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 15F);
+            label2.Location = new Point(15, 145);
+            label2.Name = "label2";
+            label2.Size = new Size(69, 35);
+            label2.TabIndex = 1;
+            label2.Text = "Dica:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 15F);
+            label1.Location = new Point(11, 98);
+            label1.Name = "label1";
+            label1.Size = new Size(99, 35);
+            label1.TabIndex = 0;
+            label1.Text = "Palavra:";
+            // 
             // tabPage2
             // 
             tabPage2.Controls.Add(pictureBox16);
@@ -361,141 +504,6 @@
             tabPage2.TabIndex = 1;
             tabPage2.Text = "tabPage2";
             tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 15F);
-            label1.Location = new Point(6, 143);
-            label1.Name = "label1";
-            label1.Size = new Size(99, 35);
-            label1.TabIndex = 0;
-            label1.Text = "Palavra:";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 15F);
-            label2.Location = new Point(10, 190);
-            label2.Name = "label2";
-            label2.Size = new Size(69, 35);
-            label2.TabIndex = 1;
-            label2.Text = "Dica:";
-            // 
-            // txtbPalavra
-            // 
-            txtbPalavra.Location = new Point(111, 151);
-            txtbPalavra.Name = "txtbPalavra";
-            txtbPalavra.Size = new Size(163, 27);
-            txtbPalavra.TabIndex = 2;
-            // 
-            // txtbDica
-            // 
-            txtbDica.Location = new Point(111, 198);
-            txtbDica.Name = "txtbDica";
-            txtbDica.Size = new Size(244, 27);
-            txtbDica.TabIndex = 3;
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(6, 241);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(712, 188);
-            dataGridView1.TabIndex = 4;
-            // 
-            // toolStripContainer1
-            // 
-            // 
-            // toolStripContainer1.ContentPanel
-            // 
-            toolStripContainer1.ContentPanel.Controls.Add(btnExcluir);
-            toolStripContainer1.ContentPanel.Controls.Add(btnAlterar);
-            toolStripContainer1.ContentPanel.Controls.Add(btnSalvar);
-            toolStripContainer1.ContentPanel.Controls.Add(btnIncluir);
-            toolStripContainer1.ContentPanel.Controls.Add(btnUltimo);
-            toolStripContainer1.ContentPanel.Controls.Add(btnAcancar);
-            toolStripContainer1.ContentPanel.Controls.Add(btnVoltar);
-            toolStripContainer1.ContentPanel.Controls.Add(btnInicio);
-            toolStripContainer1.ContentPanel.Size = new Size(710, 83);
-            toolStripContainer1.Location = new Point(10, 6);
-            toolStripContainer1.Name = "toolStripContainer1";
-            toolStripContainer1.Size = new Size(710, 83);
-            toolStripContainer1.TabIndex = 5;
-            toolStripContainer1.Text = "toolStripContainer1";
-            // 
-            // btnInicio
-            // 
-            btnInicio.Location = new Point(16, 3);
-            btnInicio.Name = "btnInicio";
-            btnInicio.Size = new Size(79, 69);
-            btnInicio.TabIndex = 0;
-            btnInicio.Text = "Início";
-            btnInicio.UseVisualStyleBackColor = true;
-            // 
-            // btnVoltar
-            // 
-            btnVoltar.Location = new Point(101, 3);
-            btnVoltar.Name = "btnVoltar";
-            btnVoltar.Size = new Size(79, 69);
-            btnVoltar.TabIndex = 1;
-            btnVoltar.Text = "Voltar";
-            btnVoltar.UseVisualStyleBackColor = true;
-            // 
-            // btnAcancar
-            // 
-            btnAcancar.Location = new Point(186, 3);
-            btnAcancar.Name = "btnAcancar";
-            btnAcancar.Size = new Size(79, 69);
-            btnAcancar.TabIndex = 2;
-            btnAcancar.Text = "Avançar";
-            btnAcancar.UseVisualStyleBackColor = true;
-            // 
-            // btnUltimo
-            // 
-            btnUltimo.Location = new Point(271, 3);
-            btnUltimo.Name = "btnUltimo";
-            btnUltimo.Size = new Size(79, 69);
-            btnUltimo.TabIndex = 3;
-            btnUltimo.Text = "Último";
-            btnUltimo.UseVisualStyleBackColor = true;
-            // 
-            // btnIncluir
-            // 
-            btnIncluir.Location = new Point(356, 3);
-            btnIncluir.Name = "btnIncluir";
-            btnIncluir.Size = new Size(79, 69);
-            btnIncluir.TabIndex = 4;
-            btnIncluir.Text = "Incluir";
-            btnIncluir.UseVisualStyleBackColor = true;
-            // 
-            // btnSalvar
-            // 
-            btnSalvar.Location = new Point(441, 3);
-            btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(79, 69);
-            btnSalvar.TabIndex = 5;
-            btnSalvar.Text = "Salvar";
-            btnSalvar.UseVisualStyleBackColor = true;
-            // 
-            // btnAlterar
-            // 
-            btnAlterar.Location = new Point(526, 3);
-            btnAlterar.Name = "btnAlterar";
-            btnAlterar.Size = new Size(79, 69);
-            btnAlterar.TabIndex = 6;
-            btnAlterar.Text = "Alterar";
-            btnAlterar.UseVisualStyleBackColor = true;
-            // 
-            // btnExcluir
-            // 
-            btnExcluir.Location = new Point(611, 3);
-            btnExcluir.Name = "btnExcluir";
-            btnExcluir.Size = new Size(79, 69);
-            btnExcluir.TabIndex = 7;
-            btnExcluir.Text = "Excluir";
-            btnExcluir.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -530,11 +538,11 @@
             Cadastro.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
-            tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             toolStripContainer1.ContentPanel.ResumeLayout(false);
             toolStripContainer1.ResumeLayout(false);
             toolStripContainer1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            tabPage2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
