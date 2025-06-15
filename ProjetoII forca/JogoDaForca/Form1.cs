@@ -1,4 +1,5 @@
-﻿using JogoDaForca;
+﻿//23015 e 24459
+using JogoDaForca;
 
 namespace JogoDaForca
 {
