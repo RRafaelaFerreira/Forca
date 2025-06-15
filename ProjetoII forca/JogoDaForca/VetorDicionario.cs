@@ -10,6 +10,7 @@ namespace JogoDaForca
     {
         private Dicionario[] Dados { get; set; }
         private int PosicaoAtual { get; set; }
+        int indiceAtual = 0; 
 
         public int posicaoAtual => PosicaoAtual;
         public Dicionario[] dados => Dados;
@@ -30,15 +31,28 @@ namespace JogoDaForca
             }
         }
 
-        /*public void AlterarDica(int posicao, string dica)
+        public void Excluir(int posicao)
         {
-            if (posicao >= 0 && posicao < posicaoAtual)
+            if (posicao >= 0 && posicao < PosicaoAtual)
             {
-                dados[posicao].Dica = dica;
+                for (int i = posicao; i < PosicaoAtual - 1; i++)
+                {
+                    Dados[i] = Dados[i + 1];
+                }
+                Dados[PosicaoAtual - 1] = null;
+                PosicaoAtual--;
             }
-        }*/   //NÃO SEI O QUE ESTÁ ERRADO!
+        }
 
-           
+
+        public void AlterarDica(int posicao, string novaDica)
+        {
+            if (posicao >= 0 && posicao < PosicaoAtual)
+            {
+                Dados[posicao].Dica = novaDica;
+            }
+        }
+
         public void Listar()
         {
             for (int i = 0; i < posicaoAtual; i++)

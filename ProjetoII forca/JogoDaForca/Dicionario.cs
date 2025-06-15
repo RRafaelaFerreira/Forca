@@ -14,8 +14,8 @@ namespace JogoDaForca
         //private const int TAMANHO_PALAVRA = 15;
         //private const int TAMANHO_DICA = 16;
         
-        private string Palavra { get; set; }
-        private string Dica{ get; set; }
+        public string Palavra { get; set; }
+        public string Dica{ get; set; }
         private bool[] Acertou { get; set; } //sempre iniciará com false
 
         public Dicionario(string Palavra, string Dica, bool[] Acertou) { 
